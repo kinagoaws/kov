@@ -1,0 +1,8 @@
+{
+    "name": "Event Tickets",
+    "version": "1.0.0",
+    "description": "A module to manage event tickets",
+    "uuid": "UUID_GENERATED_HERE",
+    "image": "event_tickets_banner.png",
+    "folder": "kmrs-event-tickets"
+}

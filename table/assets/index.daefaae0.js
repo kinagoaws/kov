@@ -1,0 +1,1 @@
+import{P as i,u as r}from"./index.e99838a1.js";const o=i("Device",{web:()=>r(()=>import("./web.32ea3793.js"),["assets/web.32ea3793.js","assets/index.e99838a1.js","assets/index.1028cef9.css"]).then(e=>new e.DeviceWeb)});export{o as D};

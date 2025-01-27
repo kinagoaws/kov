@@ -1,0 +1,28 @@
+{
+    "name": "KMRS Event Tickets",
+    "version": "1.0.0",
+    "uuid": "UUID_GENERATED_HERE",
+    "image": "event_tickets_banner.png",
+    "file": [
+        {
+            "action": "copy",
+            "file": "protected/controllers/EventController.php",
+            "to": "protected/controllers/EventController.php"
+        },
+        {
+            "action": "copy",
+            "file": "protected/components/TicketModel.php",
+            "to": "protected/components/TicketModel.php"
+        },
+        {
+            "action": "copy",
+            "file": "protected/components/PerkModel.php",
+            "to": "protected/components/PerkModel.php"
+        },
+        {
+            "action": "copy",
+            "file": "protected/migrations/001_create_event_tables.sql",
+            "to": "protected/migrations/001_create_event_tables.sql"
+        }
+    ]
+}

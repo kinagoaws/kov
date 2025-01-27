@@ -1,0 +1,64 @@
+/* Merchant Header with Black Overlay */
+.merchant-top-header {
+    position: relative; /* Enables layering for the overlay and content */
+    background-size: cover; /* Ensures the background image covers the container */
+    background-position: center; /* Centers the background image */
+    color: #ffffff; /* Default text color to white */
+    overflow: hidden; /* Prevents content overflow */
+}
+
+/* Add a black semi-transparent overlay */
+.merchant-top-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 1; /* Layer the overlay above the background image */
+}
+
+/* Ensure content is above the overlay */
+.merchant-top-header .container {
+    position: relative; /* Ensures content is above the overlay */
+    z-index: 2; /* Places content above the overlay */
+}
+
+/* Override styles for breadcrumb links */
+.merchant-top-header a {
+    color: #ffffff !important; /* Ensures links are white */
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for readability */
+}
+
+/* Style for the breadcrumb text */
+.merchant-top-header .text-truncate {
+    color: #ffffff !important; /* Makes breadcrumb text white */
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7); /* Adds readability shadow */
+}
+
+/* Style for the restaurant name and other headings */
+.merchant-top-header h4 {
+    color: #ffffff !important; /* Makes the restaurant name white */
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for better readability */
+}
+
+/* List items inside the merchant header */
+.merchant-top-header ul li {
+    color: #ffffff !important; /* Makes list items text white */
+}
+
+/* Separator dots between info items */
+.info-items-dot-separator {
+    background-color: #ffffff; /* Makes separator dots white */
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+/* For elements like time, ratings, etc. */
+.merchant-top-header .zmdi {
+    color: #ffffff !important; /* Icons should also appear white */
+}

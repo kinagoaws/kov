@@ -1,0 +1,1 @@
+import{Q as e}from"./QPage.ab42a258.js";import{_ as r,u as s,q as a,t as o}from"./index.5da0f878.js";const c={name:"SupportPage",setup(){return{Activity:s()}},created(){this.Activity.setTitle(this.$t("Support"))}};function i(t,p,n,u,_,d){return a(),o(e,{padding:"",class:"bg-grey-1"})}var m=r(c,[["render",i]]);export{m as default};

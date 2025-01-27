@@ -1,0 +1,1 @@
+import{b5 as a,au as r}from"./index.5da0f878.js";const o=a("KeepAwake",{web:()=>r(()=>import("./web.992671c2.js"),["assets/web.992671c2.js","assets/index.5da0f878.js","assets/index.96a3fb36.css"]).then(e=>new e.KeepAwakeWeb)});export{o as K};
